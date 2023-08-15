@@ -4,7 +4,7 @@ const LoginForm = ({ onLogin, onRegister }) => {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
-  const [isRegistering, setIsRegistering] = useState(false);
+  const [isRegistering, setIsRegistering] = useState(true);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
